@@ -26,3 +26,6 @@
 
 # Halloween House
 # another school project and my first big scale pygame drawing! happy halloween!!
+
+# Budget Tarot Shop
+# tarot reading but its really bad bcuz i made it in 5 minutes
