@@ -1,0 +1,111 @@
+import random
+import time
+
+print ("welcome to my budget tarot reading shop")
+
+time.sleep (1)
+
+print ("sorry but you gotta find the meanings on ur own")
+
+time.sleep (1)
+
+input = input ("whatchu tryna find out? ")
+
+time.sleep (1)
+
+print ("ok no promises... here we go...")
+
+print ("\n")
+
+time.sleep (1)
+
+suit = random.randint (0, 4)
+
+if suit == 1:
+    suit = ("wands")
+if suit == 2:
+    suit = ("pentacles")
+if suit == 3:
+    suit = ("swords")
+if suit == 4:
+    suit = ("cups")
+
+card = random.randint (0, 14)
+
+if card == 0:
+    card = ("ace")
+if card == 11:
+    card = ("page")
+if card == 12:
+    card = ("knight")
+if card == 13:
+    card = ("queen")
+if card == 14:
+    card = ("knight")
+
+if suit == 0:
+    card = random.randint (0, 21)
+    if card == 0:
+        card = ("the fool")
+    if card == 1:
+        card = ("the magician")
+    if card == 2:
+        card = ("the high priestess")
+    if card == 3:
+        card = ("the empress")
+    if card == 4:
+        card = ("the emperor")
+    if card == 5:
+        card = ("the hierophant")
+    if card == 6:
+        card = ("the lovers")
+    if card == 7:
+        card = ("the chariot")
+    if card == 8:
+        card = ("strength")
+    if card == 9:
+        card = ("the hermit")
+    if card == 10:
+        card = ("wheel of fortune")
+    if card == 11:
+        card = ("justice")
+    if card == 12:
+        card = ("the hanged man")
+    if card == 13:
+        card = ("death")
+    if card == 14:
+        card = ("temperance")
+    if card == 15:
+        card = ("the devil")
+    if card == 16:
+        card = ("the tower")
+    if card == 17:
+        card = ("the star")
+    if card == 18:
+        card = ("the moon")
+    if card == 19:
+        card = ("the sun")
+    if card == 20:
+        card = ("judgment")
+    if card == 21:
+        card = ("the world")
+
+reverse = random.randint (0, 1)
+
+if reverse == 1:
+    reverse = ("upright")
+elif reverse == 0:
+    reverse = ("reversed")
+
+if suit == 0:
+    print ("ur card is ", card, reverse)
+else:
+    print ("ur card is the ", card, " of ", suit, reverse)
+    
+time.sleep (1)
+
+print ("\ngoodluck with ", input)
+
+time.sleep (1)
+
+print ("bye")
