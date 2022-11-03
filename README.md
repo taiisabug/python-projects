@@ -23,3 +23,6 @@
 
 # Real Estate
 # school project: calculates how much commision a real estate agent earns for selling a house
+
+# Halloween House
+# another school project and my first big scale pygame drawing! happy halloween!!
