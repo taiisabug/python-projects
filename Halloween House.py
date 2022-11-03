@@ -3,7 +3,7 @@ import pygame.freetype
 import random
 import math
 pygame.init()
-pygame.display.set_caption('hello mr k')
+pygame.display.set_caption('made by tl sutherland! click on the door for a surprise :) happy halloween!!')
 WHITE = (225, 225, 225)
 BLACK = (0,0,0)
 BLOOD = (139, 0, 0)
