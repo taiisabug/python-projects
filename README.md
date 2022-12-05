@@ -29,3 +29,6 @@
 
 # Budget Tarot Shop
 # tarot reading but its really bad bcuz i made it in 5 minutes
+
+# Mastermind
+# school project that i'm turning into a pygame!! check out the online version here https://webgamesonline.com/mastermind/index.php
